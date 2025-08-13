@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "Oracle": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://oracle.cyberdojo.ai/sse"
+      ]
+    },
+    "calendar-remote": {
+      "command": "npx",
+      "args": ["mcp-remote", "ws://127.0.0.1:8765/ws"]
+    }
+  },
+  "globalShortcut": ""
+}
